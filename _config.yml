@@ -37,8 +37,10 @@ color:
 footer:
   copyright: 2019
   location: 
-  social: '<a href="https://www.facebook.com/Nika-322548588700404/"><i class="fa fa-facebook"></i></a>
-  <a href="https://twitter.com/CoinNika"><i class="fa fa-twitter"></i></a>'
+  social: '<a href="https://www.facebook.com/Nika-322548588700404/"><i class="fab fa-2x fa-facebook"></i></a>
+  <a href="https://twitter.com/CoinNika"><i class="fab fa-2x fa-twitter-square"></i></a>
+  
+  '
   credits: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -46,7 +48,7 @@ footer:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: <a href="https://discord.gg/bWX885"><i class="fab fa-discord"></i>Discord</a>   |   <a href="https://t.me/nikacoin"><i class="fab fa-telegram"></i>Telegram</a>
+  - line: <a href="https://discord.gg/bWX885"><i class="fab fa-2x fa-discord"></i></a>  <a href="https://t.me/nikacoin"><i class="fab fa-2x fa-telegram-plane"></i></i></a>
 
 
 # Credits content
