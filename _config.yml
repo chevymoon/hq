@@ -1,11 +1,14 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+title: Nika Coin
+email: histukirdu@desoz.com
+url: /hq
+description: "Nika is the world's largest airdrop, ever."
+keywords: "Airdrop"
+skills: "Crypto for the People"
 meta_author: LastName FirstName
+resource: https://nikacoin.github.io/hq/
+
+
 
 # Google webmaster tools
 google_verify:
@@ -32,31 +35,22 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: 2019
+  location: 
+  social: '<a href="https://www.facebook.com/Nika-322548588700404/"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/CoinNika"><i class="fa fa-twitter"></i></a>'
+  credits: 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: <a href="https://discord.gg/bWX885"><i class="fab fa-discord"></i>Discord</a>   |   <a href="https://t.me/nikacoin"><i class="fab fa-telegram"></i>Telegram</a>
+
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits:
 
 # Build settings
 markdown: kramdown

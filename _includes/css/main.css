@@ -4,6 +4,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ th, tr {
+    padding: 20px;
+    border: 1px dotted #000;
+  }
+
+  table {
+    border: 1px solid black;
+    border-spacing: 25px;
+  }
+
+  h1 {
+      color: #000;
+  }
+
 body {
     overflow-x: hidden;
 }
@@ -22,7 +36,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #FBB917;
 }
 
 h1,
@@ -35,11 +49,34 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+#summary {
+    border-bottom: solid 2px #000 ;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+
+#headertop {
+    border-bottom: solid 2px #000 ;
+}
+#airdrop {
+    border-top: solid 2px #FBB917 ;
+
+}
+#about {
+    border-top: solid 2px #FBB917 ;
+}
+
+#join {
+    border-bottom: solid 2px #FBB917 ;
+    border-top: solid 2px #FBB917 ;
+}
 
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
-    padding: 0;
+    padding: 10px 10px 10px 10px;
     max-width: 250px;
     border: 0;
     border-top: solid 5px;
@@ -64,31 +101,50 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #5DBCD2;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #FBB917;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
+    color: #FFF;
+    background-color: #FBB917;
 }
 
 .img-centered {
-    margin: 0 auto;
+    margin: 20px auto 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 header {
     text-align: center;
+    color: #000;
+    background: #FFF;
+}
+
+#airdrop {
+    text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #000;
+}
+
+#join {
+    text-align: center;
+    color: #fff;
+    background: #000;
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+#join {
+    text-align: center;
+    color: #fff;
+    background: #000;
 }
 
 header img {
@@ -112,7 +168,13 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
+    #join {
+        text-align: center;
+        color: #fff;
+        background: #000;
     }
 
     header .intro-text .name {
@@ -122,6 +184,11 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+    #join {
+        text-align: center;
+        color: #fff;
+        background: #000;
+    }
 }
 
 @media(min-width:768px) {
@@ -130,7 +197,26 @@ header .intro-text .skills {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        background-color: #000000;
     }
+    #portfolio {
+        margin-top: -100px;
+    }
+
+    #special {
+        border: solid 3px #FBB917;
+    }
+
+    #special th 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#specialone {
+    text-align: left;
+    vertical-align: left;
+}
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
@@ -152,6 +238,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    width: 100%;
 }
 
 .navbar a:focus {
@@ -182,10 +269,17 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #000000;
 }
 
-@media(max-width:767px) {
+@media(max-width:1061px) {
+
+    html {
+    width: 100%;
+    }
+    body {
+  margin-right: -40%;
+    }
     section {
         padding: 75px 0;
     }
@@ -193,7 +287,163 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+
+    #portfolio .portfolio-item {
+        width: 40%;
+        margin: 0;
+
+    }
+
+    .fix {
+        width: 500px;
+    }
+
 }
+
+@media(max-width:767px) {
+
+    html {
+    width: 100%;
+    }
+    body {
+  margin-right: -60%;
+    }
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+
+    #portfolio .portfolio-item {
+        width: 40%;
+        margin: 0;
+
+    }
+
+    .fix {
+        width: 500px;
+    }
+
+}
+
+@media(max-width:460px) {
+
+    html {
+    width: 160%;
+    }
+    body {
+  margin-right: -60%;
+    }
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+
+    .fix {
+        width: 360px;
+    }
+
+    .set {
+        width: 300px;
+    }
+
+}
+
+@media(max-width:588px) {
+
+    html {
+    width: 150%;
+    }
+    body {
+  margin-right: -90%;
+    }
+    section {
+        padding: 45px 0;
+    }
+
+    section.first {
+        padding-top: 55px;
+    }
+
+    .fix {
+        width: 280px;
+    }
+
+    .set {
+        width: 180px;
+        margin: 0% 0% 0% 25%;
+    }
+    h1 {
+        font-size: 28pt;
+    }
+
+}
+
+@media(max-width:360px) {
+
+    html {
+    width: 200%;
+    }
+    body {
+  margin-right: -60%;
+    }
+    section {
+        padding: 45px 0;
+    }
+
+    section.first {
+        padding-top: 55px;
+    }
+
+    .fix {
+        width: 280px;
+    }
+
+    .set {
+        width: 180px;
+        margin: 0% 0% 0% 25%;
+    }
+    h1 {
+        font-size: 28pt;
+    }
+
+}
+
+@media(max-width:267px) {
+
+    html {
+        width: 250%;
+        }
+        body {
+      margin-right: -60%;
+        }
+        section {
+            padding: 45px 0;
+        }
+    
+        section.first {
+            padding-top: 55px;
+        }
+    
+        .fix {
+            width: 280px;
+        }
+    
+        .set {
+            width: 220px;
+            margin: 0% 0% 0% 10%;
+        }
+        h1 {
+            font-size: 24pt;
+        }
+    
+    }
+    
 
 #portfolio .portfolio-item {
     right: 0;
@@ -204,11 +454,11 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 250px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -223,7 +473,7 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: absolute;
+   /* position: absolute;*/
     top: 50%;
     width: 100%;
     height: 20px;
@@ -336,7 +586,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #000;
 }
 
 footer .footer-col {
@@ -345,7 +595,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #000;
 }
 
 .btn-social {
@@ -386,17 +636,6 @@ footer .footer-below {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
@@ -410,15 +649,7 @@ footer .footer-below {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
+
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
@@ -446,7 +677,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #FBB917 !important;
 }
 
 /* Fix modal mouse wheel issues */
