@@ -55,7 +55,9 @@ h6 {
     padding-bottom: 10vh;
 }
 
-
+#lowercase {
+    text-transform: lowercase;
+}
 
 #headertop {
     border-bottom: solid 2px #000 ;
