@@ -38,10 +38,10 @@ footer:
   copyright: 2019
   location: 
   social: '<a href="https://www.facebook.com/Nika-322548588700404/"><i class="fab fa-2x fa-facebook"></i></a>
-  <a href="https://twitter.com/CoinNika"><i class="fab fa-2x fa-twitter-square"></i></a>
-  
-  '
-  credits: 
+  <a href="https://twitter.com/CoinNika"><i class="fab fa-2x fa-twitter-square"></i></a>'
+  credits: '<a href="https://etherdelta.com/#0xf7f14205898b2b8bc008148e591b1060be7a50fb-ETH">EtherDelta</a>
+  <br />
+  <a href="https://forkdelta.app/#!/trade/0xf7f14205898b2b8bc008148e591b1060be7a50fb-ETH">ForkDelta</a>'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 
