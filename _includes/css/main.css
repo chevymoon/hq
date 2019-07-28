@@ -30,6 +30,18 @@ p.small {
     font-size: 16px;
 }
 
+.specialbackground {
+    background-image: url('../../blockchain2.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
 a,
 a:hover,
 a:focus,
@@ -60,7 +72,7 @@ h6 {
 }
 
 #headertop {
-    border-bottom: solid 2px #000 ;
+    border-bottom: solid 2px #fff ;
 }
 #airdrop {
     border-top: solid 2px #FBB917 ;
@@ -122,7 +134,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #000;
+    color: #FFF;
     background: #FFF;
 }
 
@@ -160,6 +172,7 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color: #fff;
 }
 
 header .intro-text .skills {
