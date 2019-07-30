@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
  th, tr {
     padding: 20px;
     border: 1px dotted #000;
@@ -14,9 +15,16 @@
     border-spacing: 25px;
   }
 
-  h1 {
-      color: #000;
-  }
+  .noshow table, th, tr {
+    border: none;
+    border-color: #fff;
+}
+
+  
+  #specialannounce {
+      color: #FBB917 !important;
+}
+
 
 body {
     overflow-x: hidden;
@@ -39,6 +47,15 @@ p.small {
     height: 100vh;
     padding:0;
     margin:0;
+}
+
+.notuppercase {
+    text-transform: none !important;
+    color: #565656;
+}
+
+.contractintro {
+    background-color: #FFF;
 }
 
 
@@ -118,9 +135,6 @@ hr.star-light:after {
     background-color: #5DBCD2;
 }
 
-hr.star-primary {
-    border-color: #FBB917;
-}
 
 hr.star-primary:after {
     color: #FFF;
@@ -137,6 +151,14 @@ header {
     color: #FFF;
     background: #FFF;
 }
+
+.alignment th 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+
 
 #airdrop {
     text-align: center;
@@ -283,9 +305,33 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #000000;
+    color: #000000;
+    background: #fff;
 }
+
+a {
+    color: #900;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    position: relative;
+  }
+  
+  a[data]:hover:after {
+    content: attr(data);
+    padding: 4px 8px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    z-index: 2;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #000000;
+  }
 
 @media(max-width:1061px) {
 

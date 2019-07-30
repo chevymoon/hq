@@ -1,5 +1,9 @@
  <!-- About Section -->
- <script src="https://kit.fontawesome.com/a3c0c0cb92.js"></script>
+ <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip(); 
+    });
+    </script>
     <section class="success" id="about">
         <div class="container">
             <div class="row">
@@ -8,8 +12,108 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 text-center" >
-       <p> Coming soon</p>
+                <div class="col-lg-12 text-center" >
+                    
+                    <br /><br />
+                    <h1 id="specialannounce">Nika Database Service Contract</h1>
+                    <br /><br />
+                    <h6>
+                        <table align="center" class="noshow">
+                            <tr>
+                                <th>
+                        <table align="center" class="alignment">
+                                <tr>
+                                    <th>Privacy
+                                            <a data="This contract is completely private." href="#" class="tip"><img src="../icons/privacy_on.png"></a></th>
+                                    <th>Tested
+                                            <a data="This contract has been rigorously tested." href="#" class="tip"><img src="../icons/tested_on.png"></a></th>
+                                    <th>Secure
+                                            <a data="This contract is hack-proof." href="#" class="tip"><img src="../icons/security_on.png"></a></th>
+                                    <th>Customer Service
+                                            <a data="This contract does not feature customer support." href="#" class="tip"><img src="../icons/customer_service_off.png"></a></th>
+                                    <th>Integration
+                                            <a data="This will not be further integrated into the Nika chain." href="#" class="tip"><img src="../icons/integrated_off.png"></a></th>
+                                    <th>Id Dependent
+                                            <a data="This contract does not require Nika id or any other id." href="#" class="tip"><img src="../icons/id_dependent_off.png"></a></th>
+                                    <th>Government Usable 
+                                            <a data="This contract is not built for government infrastructure." href="#" class="tip"><img src="../icons/government_off.png"></a></th>
+                                </tr>
+                                </table>
+                            </th>
+                        </tr>
+                    <tr>
+                        <th></h6>
+                               <h4>
+            <table align="center" class="alignment">
+                    <tr>
+                        <th>Purpose</th>
+                        <th>Cost</th>
+                        <th>Capabilities</th>
+                        <th>Industries</th>
+                    
+                    </tr>
+                    <tr>
+                        
+                        <th>Database for users</th>
+                        <th>1 Nika per slot<br /> Gas to edit<br /> Free to pull information</th>
+                        <th>One ethereum address
+                                <br /> Two numbers (dates, etc) <br /> 
+                                Eight strings per slot <br /> Infinite slots</th>
+                        <th>Farming<br />
+                            Insurance<br />
+                            Gaming<br />
+                            User Databases<br />
+                        </th>
+                    </tr>
+            </table>
+        </th>
+    </tr>
+        </table>
+        </h4>
+
+            <br /><br />
+            <p> The Nika Database Service Contract is primarily built as an example but it can serve
+             as a private database for many features; online games, agricultural data, insurance records,
+             weather reports and mostly anything not hiding sensitive data. Although the contract is 100%
+             private on the blockchain and does not expose information, it still is not secure from 
+             outside elements outside the blockchain, such as someone taking your ethereum wallet.
+         </p>
+         <br /><br />
+         <h3 class="notuppercase">
+         1. Make sure you have metamask installed or any other tool to work with the ethereum blockchain
+         <br /><br />
+         2. You need to have some gas (ether) in your wallet and at least one Nika token
+         <br />
+         <br />
+         3. You need to approve the contract to send one Nika token from your wallet. To do this, you need to
+         load the <a href="https://etherscan.io/dapp/0xf7f14205898b2b8bc008148e591b1060be7a50fb#">Nika token contract</a>.
+         <br /><br />The previous link will take you to the Dapp page, you need to click the Web3 link in the top right page and activate Web3.
+         If you're connected to metamask and loggin in, a window will pop-up and you have to approve that.
+         <img src="web3.png" style="width: 50%" />
+         <br /><br />4. Click the <u>Write Contract</u> button, the click the <u>Approve</u> function.
+         <br /><br />
+         Copy the Database contract address: 0x519e5585540ac8d5770cfcd8175bbbd2a6430367 <br />
+         <br />
+         Paste it into the spender field. Then since Nika Token has five decimal places, put <b>100000</b>
+         for one Nika Token or if you want more slots, put more. Don't worry, the database contract will only
+         charge you for one slot at a time so it's impossible to overspend here.<br /><br />
+         <img src="approve.png" style="width: 80%" /><br /><br />
+         You should see this window once click the write button. Verify the transaction.<br /><br />
+         <img src="approve2.png" style="width: 30%" /><br /><br />
+         4. Good, now you're ready to roll. Visit the <a href="https://etherscan.io/dapp/0x519e5585540ac8d5770cfcd8175bbbd2a6430367#writeContract">Database Contract Dapp page</a>.
+         Again make sure you're connect to Web3 and have Metamask running. <br />
+         Click <u>Create Database</u> button and hit write, approve the transaction. Congratulations! You now have a database on Ethereum!
+         <br />
+         *You need at least one Nika token for it to transfer and get set up* <br /><br />
+         5. You can edit two strings at a time, 1 & 2, 3 & 4, 5 & 6, 7 & 8. You can also edit the address
+         from this menu as well as the two numbers. You can navigate between the slots by selecting choose your slot.
+         <br /><br />
+         6. Unfortunately, you can't really read information through that Dapp page. You can head over to remix, paste the code 
+         there and as long as you use the same metamask wallet, you'll be able to read information. Only your wallet can read information, no one else.
+        <br /><br />
+        *Blockchain tools are virtually non-existant and we will strive to build excellent front-end tools.
+    Be patient until we raise funds to do so*</h3>
+        
                 </div>
                 <!--
                 <div class="col-lg-4 text-center">
