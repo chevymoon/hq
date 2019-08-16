@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hq/static/css/main.d33227ee.chunk.css",
+    "main.js": "/hq/static/js/main.662b5b7c.chunk.js",
+    "main.js.map": "/hq/static/js/main.662b5b7c.chunk.js.map",
+    "runtime~main.js": "/hq/static/js/runtime~main.c83258bf.js",
+    "runtime~main.js.map": "/hq/static/js/runtime~main.c83258bf.js.map",
+    "static/css/2.23849507.chunk.css": "/hq/static/css/2.23849507.chunk.css",
+    "static/js/2.8b59bbb5.chunk.js": "/hq/static/js/2.8b59bbb5.chunk.js",
+    "static/js/2.8b59bbb5.chunk.js.map": "/hq/static/js/2.8b59bbb5.chunk.js.map",
+    "index.html": "/hq/index.html",
+    "precache-manifest.5c2e172e16b76e32c212d62854b82b94.js": "/hq/precache-manifest.5c2e172e16b76e32c212d62854b82b94.js",
+    "service-worker.js": "/hq/service-worker.js",
+    "static/css/2.23849507.chunk.css.map": "/hq/static/css/2.23849507.chunk.css.map",
+    "static/css/main.d33227ee.chunk.css.map": "/hq/static/css/main.d33227ee.chunk.css.map",
+    "static/media/Nika.png": "/hq/static/media/Nika.bf01e0f5.png",
+    "static/media/bank.svg": "/hq/static/media/bank.f2fc0a55.svg",
+    "static/media/semantic.min.css": "/hq/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/locked.svg": "/hq/static/media/locked.bb422aa7.svg",
+    "static/media/metamask.png": "/hq/static/media/metamask.d334aeb8.png",
+    "static/media/network.svg": "/hq/static/media/network.a92d292a.svg",
+    "static/media/package.png": "/hq/static/media/package.e4f7ce91.png",
+    "static/media/science.svg": "/hq/static/media/science.9a6a2a50.svg"
+  }
+}
