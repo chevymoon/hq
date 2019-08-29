@@ -41,10 +41,6 @@ p.small {
 .specialbackground {
     background-image: url('https://nikacoin.github.io/hq/blockchain2.gif');
     background-size: cover;
-    
-    
-    
-    height: 100vh;
     padding:0;
     margin:0;
 }
@@ -79,18 +75,51 @@ h6 {
     font-weight: 700;
 }
 #summary {
-    border-bottom: solid 2px #000 ;
+    border-bottom: solid 2px #eee;
     padding-top: 10vh;
     padding-bottom: 10vh;
+}
+
+#summary h1 {
+    margin: 1em 0 0.75em 0;
+}
+
+#summary .fas {
+    font-size: 2em;
+    margin-bottom: 0.975em;
+}
+
+#summary p {
+    text-align: justify;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    max-width: 740px;
+    margin: 0em auto 1.2em auto;
+}
+
+#whitepaperButton {
+    transition: transform .2s;
+    background: rgb(44,62,80);
+    max-width: 250px;
+    padding: 2em;
+    display: block;
+    margin: 10vh auto 1em auto;
+    color: white;
+}
+
+a#whitepaperButton:hover {
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
 #lowercase {
     text-transform: lowercase;
 }
 
-#headertop {
-    border-bottom: solid 2px #fff ;
+#headertop > .img-responsive {
+    max-width: 256px;
 }
+
 #airdrop {
     border-top: solid 2px #FBB917 ;
 
